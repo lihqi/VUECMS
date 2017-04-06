@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+#service .arrow{
+	position: fixed;width: 50px;height: 27px;left:50%;bottom:30px;transform: translateX(-50%);z-index: 999;
+	background: url(../images/arrow1.png) center center no-repeat;
+	animation: floatVertical 1.5s infinite ease-in-out;
+}
+@keyframes floatVertical{
+	0% {
+		-webkit-transform: translate(-50%, 0);
+	}
+	50% {
+		-webkit-transform: translate(-50%, 10px);
+	}
+	100% {
+		-webkit-transform: translate(-50%, 0);
+	}
+}
+#service .page-bg{position: fixed;width: 100%;height: 100%;left: 0;top: 0;display: none;}
+#service .page-bg.active{display: block;}
+#service .page-bg-1{background: url(../images/service/bg1.jpg) center bottom no-repeat;background-size: cover;}
+#service .page-bg-2{background: url(../images/service/bg2.jpg) center bottom no-repeat;background-size: cover;}
+#service .page-bg-3{background: url(../images/service/bg3.jpg) center bottom no-repeat;background-size: cover;}
+#service .page-bg-4{background: url(../images/service/bg4.jpg) center bottom no-repeat;background-size: cover;}
+
+
+#service .main{height: 100%; width: 100%;}
+
+#service .page{position: relative;height: 100%; width:100%; overflow: hidden;}
+#service .page-1{text-align: center;background: url(../images/service/page-bg1.jpg) center bottom no-repeat;background-size: 100% 100%;}
+#service .page-1 .logo{margin: 250px 0 50px 0;}
+#service .page-1 p{font-size: 30px;line-height: 40px;color:#262626;}
+#service .page-2{}
+#service .page-3{background:#fff;}
+#service .page-3 h3{
+	padding-top: 141px;width: 463px;margin:100px auto 10px;overflow: hidden;
+	background: url(../images/service/page3-text1.png) center top no-repeat;background-size: 100%;
+}
+#service .page-3 h3, .page-3 p{height: 0;}
+#service .page-3 img{position: absolute;left: 50%;bottom:135px;transform: translateX(-50%);}
+#service .page-4{}
+#service .page-5{background:#fff;}
+#service .page-5 h3{
+	padding-top: 141px;width: 463px;margin:100px auto 10px;overflow: hidden;
+	background: url(../images/service/page5-text1.png) center top no-repeat;background-size: 100%;
+}
+#service .page-5 h3, .page-5 p{height: 0;}
+#service .page-5 img{position: absolute;left: 50%;bottom:135px;transform: translateX(-50%);}
+#service .page-6{}
+#service .page-7{background:#fff;}
+#service .page-7 h3{
+	padding-top: 141px;width: 463px;margin:100px auto 10px;overflow: hidden;
+	background: url(../images/service/page7-text1.png) center top no-repeat;background-size: 100%;
+}
+#service .page-7 h3, .page-7 p{height: 0;}
+#service .page-7 img{position: absolute;left: 50%;bottom:135px;transform: translateX(-50%);}
+#service .page-8{}
+#service .page-9{background:#ff4c3c;}
+#service .page-9 > h3{
+	padding-top: 141px;width: 463px;margin:100px auto 10px;overflow: hidden;
+	background: url(../images/service/page9-text1.png) center top no-repeat;background-size: 100%;
+}
+#service .page-9 > h3, .page-9 p{height: 0;}
+#service .steps{padding:80px 0 0 80px;}
+#service .steps li{margin-bottom: 70px;}
+#service .steps .idx{width: 60px;height: 60px;background:url(../images/idx-icon.png) center center no-repeat;text-align: center;font-size: 35px;line-height: 60px;color: #ff4c3c;}
+#service .steps .graphic-icon{margin:0 30px;}
+#service .steps .text-con{color: #fff;}
+#service .steps .text-con h3{font-size: 30px;line-height: 35px;}
+#service .steps .text-con p{font-size: 20px;line-height: 25px;}
